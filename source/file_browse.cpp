@@ -125,8 +125,8 @@ void showDirectoryContents (const vector<DirEntry>& dirContents, int startRow) {
 
 	// Move to 2nd row
 	iprintf ("\x1b[1;0H");
-	// Print line of dashes
-	iprintf ("--------------------------------");
+	// Print line of underscores
+	iprintf ("________________________________________");
 
 	// Print directory listing
 	for (int i = 0; i < ((int)dirContents.size() - startRow) && i < ENTRIES_PER_SCREEN; i++) {
