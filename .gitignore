@@ -3,9 +3,11 @@
 *.NDS
 *.nds
 *.elf
+*.ELF
 *.bin
 *.bz2
 *.dsi
+*.DSI
 *.cia
 BootStrap/arm7/build
 BootStrap/arm9/build
